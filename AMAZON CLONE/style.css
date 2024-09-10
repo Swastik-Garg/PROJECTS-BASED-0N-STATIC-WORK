@@ -1,0 +1,175 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+/* BOX 1ST */
+.navbar{
+    height: 80px;
+    background-color: #0F1111;
+    color: white;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 60px;
+    width: 140px;
+}
+
+.logo{
+    background: url("amazon_logo.png");
+    padding: 5px;
+    height: 50px;
+    width: 100%;
+    background-size: cover;
+    margin: 0px 2px;
+}
+
+.border{
+    border: 1px solid transparent;
+}
+
+.border:hover{
+    border: 1px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+/* BOX 2ND */
+.add-icon{
+    display: flex;
+    margin: 2px;
+    padding: 0px 5px;
+    align-items: center;
+}
+
+.nav-address{
+    margin: 3px 5px; /* To add space between logo and other elements*/
+    height: 50px;
+}
+
+.icon{
+    margin: 3px 2px;
+}
+
+.para1{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin: 3px 15px;
+}
+
+.para2{
+    font-size: 1rem;
+    margin: 3px 10px;
+}
+
+/* BOX 3RD */
+.nav-search{
+    display: flex;
+    cursor: pointer;
+    height: 40px;
+    width: 500px;
+    justify-content: space-evenly;
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.search-select{
+    width: 80px;
+    border: none;
+    align-items: center;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search-select:hover{
+    background-color: rgb(169, 168, 168);
+    cursor: pointer;
+}
+
+.nav-search:hover{
+    border: 2px solid #febd68;
+}
+
+.search-icon{
+    width: 45px;
+    font-size: 1.3rem;
+    background-color: #febd68;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border: none;
+    display: flex;
+    color: #0F1111;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Box 4TH and 5TH */
+span{
+    font-size: 0.75rem;
+}
+
+.nav-second{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* Box 6TH */
+.nav-cart{
+    display: flex;
+}
+
+.nav-cart i{
+    font-size: 30px;
+}
+
+.cart{
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px;
+}
+
+/* Panel */
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-para{
+    display: inline;
+}
+
+.panel-ops p{
+    display: inline;
+    padding: 0px 12px;
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
